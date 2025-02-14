@@ -1,0 +1,26 @@
+/* src/components/Footer.css */
+
+footer {
+    background-color: var(--blue);
+    /* Blue background */
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+footer a {
+    color: var(--yellow);
+    /* Yellow links */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: var(--red);
+    /* Red on hover */
+}

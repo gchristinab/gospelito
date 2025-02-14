@@ -1,0 +1,23 @@
+/* src/components/About.css */
+
+#about {
+    background-color: var(--light-gray);
+    /* Light Gray background */
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    color: var(--red);
+    /* Red text */
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.2rem;
+    color: var(--dark-gray);
+    /* Dark text */
+    max-width: 800px;
+    margin: 0 auto;
+}

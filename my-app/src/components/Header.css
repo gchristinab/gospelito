@@ -1,0 +1,42 @@
+/* src/components/Header.css */
+
+header {
+    background-color: var(--blue);
+    /* Blue background */
+    color: black;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: var(--yellow);
+    /* Yellow hover effect */
+}
+
+.nav-link:active {
+    color: var(--green);
+    /* Green on active link */
+}
