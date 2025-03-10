@@ -1,37 +1,4 @@
-/* src/App.css or src/components/Purchase.css */
-
-.purchase-section {
-    background-color: var(--light-gray);
-    padding: 50px 20px;
-    text-align: center;
-}
-
-.purchase-section h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    color: var(--red);
-    /* Red color */
-}
-
-.purchase-section p {
-    font-size: 1.2rem;
-    color: var(--dark-gray);
-    margin-bottom: 20px;
-}
-
-.purchase-btn {
-    background-color: var(--red);
-    /* Red background */
-    color: white;
-    padding: 12px 30px;
-    font-size: 1.1rem;
-    border: none;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.purchase-btn:hover {
-    background-color: var(--yellow);
-    /* Yellow on hover */
+div {
+    padding: 0px;
+    margin: 0px;
 }
