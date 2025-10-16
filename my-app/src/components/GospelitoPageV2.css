@@ -67,7 +67,7 @@
     grid-template-columns: 1.2fr 1fr;
     gap: 28px;
     align-items: center;
-    padding: 40px 0 16px;
+    padding: 10px 0 16px;
 }
 
 .gp-badge {
@@ -395,4 +395,36 @@
 
 .icon:hover {
     color: #2a4d9b;
+}
+
+.gp-btn--blue:hover,
+.gp-btn--blue:focus-visible {
+    background: var(--gp-red);
+    transform: translateY(-1px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, .12);
+    outline: none;
+}
+
+.gp-btn--primary:hover,
+.gp-btn--primary:focus-visible {
+    background: var(--gp-blue);
+    /* color change on hover */
+    transform: translateY(-1px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, .12);
+    outline: none;
+}
+
+.gp-nav__link:hover,
+.gp-nav__link:focus-visible {
+    color: var(--gp-red);
+    transform: translateY(-1px);
+    outline: none;
+}
+
+.gp-btn--ghost:hover,
+.gp-btn--ghost:focus-visible {
+    color: var(--gp-red);
+    border-color: var(--gp-red);
+    transform: translateY(-1px);
+    outline: none;
 }
