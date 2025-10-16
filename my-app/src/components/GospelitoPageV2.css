@@ -1,0 +1,398 @@
+:root {
+    --gp-red: #c1272d;
+    --gp-yellow: #fbb040;
+    --gp-blue: #2a4d9b;
+    --gp-green: #4a913c;
+    --gp-light: #f5f5f5;
+    --gp-dark: #1f2937;
+}
+
+.gp-page {
+    font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+    color: var(--gp-dark);
+    background: #fff;
+    line-height: 1.5;
+}
+
+.gp-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 32px 20px;
+}
+
+
+/* Header */
+
+.gp-header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: #fff;
+    border-bottom: 4px solid var(--gp-yellow);
+}
+
+.gp-header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.gp-logo {
+    font-weight: 900;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    color: var(--gp-red);
+    text-transform: uppercase;
+}
+
+.gp-nav {
+    display: flex;
+    gap: 16px;
+}
+
+.gp-nav__link {
+    font-weight: 600;
+    color: var(--gp-blue);
+    text-decoration: none;
+}
+
+
+/* Hero */
+
+.gp-hero {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 28px;
+    align-items: center;
+    padding: 40px 0 16px;
+}
+
+.gp-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--gp-light);
+    border: 1px solid #2a4d9b22;
+    padding: 6px 10px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--gp-blue);
+}
+
+.gp-badge__divider {
+    height: 16px;
+    width: 2px;
+    background: var(--gp-blue);
+    opacity: 0.2;
+}
+
+.gp-title {
+    margin: 10px 0 6px;
+    font-size: 44px;
+    line-height: 1.15;
+    font-weight: 900;
+    color: var(--gp-red);
+    text-shadow: 0 2px 0 var(--gp-yellow);
+}
+
+.gp-subtitle {
+    font-size: 22px;
+    color: var(--gp-blue);
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.gp-subcopy {
+    font-size: 18px;
+    color: #444;
+    max-width: 640px;
+    margin-bottom: 16px;
+}
+
+.gp-hero__buttons {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+
+/* Buttons */
+
+.gp-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 12px 16px;
+    cursor: pointer;
+}
+
+.gp-btn--primary {
+    background: var(--gp-green);
+    color: #fff;
+    padding: 14px 18px;
+}
+
+.gp-btn--ghost {
+    background: transparent;
+    color: var(--gp-blue);
+    border: 2px solid var(--gp-blue);
+}
+
+.gp-btn--blue {
+    background: var(--gp-blue);
+    color: #fff;
+}
+
+
+/* Book card */
+
+.gp-book {
+    background: #fff;
+    border-radius: 16px;
+    border: 1px solid var(--gp-light);
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.06);
+    padding: 16px;
+    text-align: center;
+}
+
+.gp-book__img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+.gp-book__meta {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #666;
+}
+
+
+/* Trust */
+
+.gp-trust {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 14px;
+}
+
+.gp-stars {
+    color: var(--gp-yellow);
+    font-size: 18px;
+}
+
+
+/* Sections */
+
+.gp-section {
+    padding: 36px 0;
+}
+
+.gp-section__title {
+    font-size: 28px;
+    font-weight: 900;
+    color: var(--gp-blue);
+    margin-bottom: 18px;
+}
+
+
+/* Features */
+
+.gp-features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.gp-feature {
+    background: var(--gp-light);
+    border: 1px solid #2a4d9b11;
+    border-radius: 16px;
+    padding: 18px;
+}
+
+.gp-feature__title {
+    font-weight: 800;
+    margin-bottom: 6px;
+    color: var(--gp-red);
+}
+
+
+/* Gallery */
+
+.gp-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+}
+
+.gp-thumb {
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid var(--gp-light);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+.gp-banner {
+    margin-top: 18px;
+    background: linear-gradient(180deg, #fbb04022, transparent);
+    border: 1px dashed var(--gp-yellow);
+    border-radius: 16px;
+    padding: 16px;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+/* Perfect for */
+
+.gp-perfect {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+}
+
+.gp-checklist {
+    display: grid;
+    gap: 8px;
+}
+
+.gp-check {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.gp-check__dot {
+    margin-top: 6px;
+    width: 10px;
+    height: 10px;
+    border-radius: 999px;
+    background: var(--gp-green);
+    flex-shrink: 0;
+}
+
+
+/* Reviews */
+
+.gp-reviews {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.gp-review {
+    border: 1px solid var(--gp-light);
+    border-radius: 14px;
+    padding: 16px;
+    background: #fff;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+}
+
+.gp-review__title {
+    font-weight: 800;
+    margin-top: 6px;
+}
+
+
+/* FAQ */
+
+.gp-faq__item {
+    border-top: 1px solid var(--gp-light);
+    padding: 14px 0;
+}
+
+.gp-faq__q {
+    font-weight: 800;
+}
+
+
+/* CTA */
+
+.gp-cta {
+    background: linear-gradient(90deg, var(--gp-red), var(--gp-yellow));
+    border-radius: 18px;
+    padding: 24px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.gp-cta__title {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.gp-cta__sub {
+    opacity: 0.95;
+}
+
+
+/* Footer */
+
+.gp-footer {
+    margin-top: 40px;
+    padding: 24px 0;
+    background: var(--gp-light);
+    border-top: 4px solid var(--gp-red);
+}
+
+.gp-footer__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.gp-footer__links {
+    display: flex;
+    gap: 12px;
+}
+
+.gp-footer__link {
+    font-weight: 700;
+    color: var(--gp-blue);
+    text-decoration: none;
+}
+
+.gp-footer__link--email {
+    color: var(--gp-green);
+}
+
+@media (max-width: 960px) {
+    .gp-hero {
+        grid-template-columns: 1fr;
+    }
+    .gp-features,
+    .gp-gallery,
+    .gp-reviews,
+    .gp-perfect {
+        grid-template-columns: 1fr;
+    }
+}
+
+.icon {
+    font-size: 1.8rem;
+    color: #e31705;
+    transition: color 0.3s ease;
+}
+
+.icon:hover {
+    color: #2a4d9b;
+}

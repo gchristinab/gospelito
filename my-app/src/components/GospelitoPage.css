@@ -22,7 +22,7 @@ body {
 }
 
 .title {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
     color: #e31705;
     text-shadow: -2.5px -2.5px 0 #ffd52b, 2.5px -2.5px 0 #ffd52b, -2.5px 2.5px 0 #ffd52b, 2.5px 2.5px 0 #ffd52b;
@@ -30,7 +30,7 @@ body {
 }
 
 .subtitle {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #2a4d9b;
     font-weight: bold;
     margin-bottom: 20px;

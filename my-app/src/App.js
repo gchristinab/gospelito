@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import GospelitoPage from "./components/GospelitoPage";
+import GospelitoPageV2 from "./components/GospelitoPage";
 
 function App() {
   return (
     <div className="App">
-      <GospelitoPage />
+      <GospelitoPageV2 />
     </div>
   );
 }

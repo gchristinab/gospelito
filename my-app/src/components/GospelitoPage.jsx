@@ -1,6 +1,6 @@
 import React from "react";
 import { FaInstagram, FaEnvelope } from "react-icons/fa";
-import "./GospelitoPage.css";
+import "./GospelitoPageV1.css";
 
 const GospelitoPage = () => {
   return (
