@@ -41,13 +41,9 @@ export default function GospelitoPageV2() {
               </div>
               <h1 className="gp-title">Sunday Gospel Coloring Book</h1>
               <div className="gp-subtitle">
-                Make faith fun, creative, and memorable for kids
+                Built for families, catechists, and classrooms.
               </div>
-              <p className="gp-subcopy">
-                Each week features a simple Gospel summary paired with an
-                engaging coloring page. Built for families, catechists, and
-                classrooms.
-              </p>
+              <p className="gp-subcopy"></p>
               <div className="gp-hero__buttons">
                 <a
                   href={buyUrl}
