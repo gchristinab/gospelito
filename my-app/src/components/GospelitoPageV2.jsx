@@ -3,7 +3,7 @@ import "./GospelitoPageV2.css";
 import { FaEnvelope, FaInstagram } from "react-icons/fa";
 
 export default function GospelitoPageV2() {
-  const buyUrl = "https://www.amazon.com/author/gospelito-books"; // LIVE product/author link
+  const buyUrl = "https://a.co/d/aJbNbQh"; // LIVE product/author link
   const email = "gospelitobooks@gmail.com";
   const instagram = "https://www.instagram.com/gospelcoloringbook/";
 
