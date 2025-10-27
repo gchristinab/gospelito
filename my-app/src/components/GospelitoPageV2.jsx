@@ -40,9 +40,9 @@ export default function GospelitoPageV2() {
                 <span>Weekly coloring + Gospel</span>
               </div>
               <h1 className="gp-title">Sunday Gospel Coloring Book</h1>
-              <div className="gp-subtitle">
+              {/* <div className="gp-subtitle">
                 Built for families, catechists, and classrooms.
-              </div>
+              </div> */}
               <p className="gp-subcopy"></p>
               <div className="gp-hero__buttons">
                 <a
