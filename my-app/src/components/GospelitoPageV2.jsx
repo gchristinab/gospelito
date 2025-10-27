@@ -53,9 +53,9 @@ export default function GospelitoPageV2() {
                 >
                   Get the 2026 Edition on Amazon →
                 </a>
-                <a href="#inside" className="gp-btn gp-btn--ghost">
+                {/* <a href="#inside" className="gp-btn gp-btn--ghost">
                   Preview pages
-                </a>
+                </a> */}
               </div>
               {/* <div className="gp-trust">
                 <div className="gp-stars" aria-label="5 out of 5 stars">
